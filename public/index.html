@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calucator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>JS Calculator by Muhib Aleem - WM8715</h1>          
+    <div class="main">
+
+        
+
+        <div>
+            <input id="result" class="result" type="text" placeholder="0">
+        </div>
+        <div>
+            <button class="clearBtn" onclick="clearValue(); this.style.backgroundColor='white';" onmouseout=" this.style.backgroundColor='grey'">C</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getValue('7'); this.style.backgroundColor='white';" onmouseout=" this.style.backgroundColor='grey'">7</button>
+            <button class="btn" onclick="getValue('8'); this.style.backgroundColor='white';" onmouseout=" this.style.backgroundColor='grey'">8</button>
+            <button class="btn" onclick="getValue('9'); this.style.backgroundColor='white';" onmouseout=" this.style.backgroundColor='grey'">9</button>
+            <button class="btn" onclick="getValue('*'); this.style.backgroundColor='white';" onmouseout=" this.style.backgroundColor='grey'">X</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getValue('4'); this.style.backgroundColor='white';" onmouseout=" this.style.backgroundColor='grey'">4</button>
+            <button class="btn" onclick="getValue('5'); this.style.backgroundColor='white';" onmouseout=" this.style.backgroundColor='grey'">5</button>
+            <button class="btn" onclick="getValue('6'); this.style.backgroundColor='white';" onmouseout=" this.style.backgroundColor='grey'">6</button>
+            <button class="btn" onclick="getValue('-'); this.style.backgroundColor='white';" onmouseout=" this.style.backgroundColor='grey'">-</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getValue('1'); this.style.backgroundColor='white';" onmouseout=" this.style.backgroundColor='grey'">1</button>
+            <button class="btn" onclick="getValue('2'); this.style.backgroundColor='white';" onmouseout=" this.style.backgroundColor='grey'">2</button>
+            <button class="btn" onclick="getValue('3'); this.style.backgroundColor='white';" onmouseout=" this.style.backgroundColor='grey'">3</button>
+            <button class="btn" onclick="getValue('+'); this.style.backgroundColor='white';" onmouseout=" this.style.backgroundColor='grey'">+</button>
+        </div>
+        <div>
+            <button class="halfBtn" onclick="getValue('0'); this.style.backgroundColor='white';" onmouseout=" this.style.backgroundColor='grey'">0</button>
+            <button class="halfBtn" onclick="finalValue(); this.style.backgroundColor='white';" onmouseout=" this.style.backgroundColor='grey'">=</button>
+        </div>
+
+    </div>
+</div>
+    
+</body>
+<script src="app.js"></script>
+</html>
